@@ -134,3 +134,19 @@
 .review-controls .slider-line span{width:20%;background:var(--amber)}
 
 @media(max-width:760px){.review-slider{margin-top:24px;padding:14px}.review-shot{flex-basis:92%;height:190px}.review-slider-heading{align-items:flex-start;flex-direction:column;gap:2px}.results-actions{margin-top:6px}}
+
+.progress-promise{margin:-20px 0 42px;padding:18px 22px;border:1px solid rgba(23,35,31,.12);border-radius:18px;background:var(--sage);font:900 clamp(20px,2.2vw,30px)/1.25 "Nunito";color:var(--forest)}
+@media(max-width:760px){.progress-promise{margin:-6px 0 28px;padding:16px 18px;font-size:21px}}
+
+.formula-ribbon{min-height:112px;padding:24px clamp(24px,5vw,78px);display:flex;align-items:center;justify-content:space-between;gap:clamp(24px,4vw,64px);overflow:hidden;background:var(--forest-2);color:#fff;border-top:6px solid var(--amber);border-bottom:1px solid rgba(255,255,255,.12);white-space:nowrap}
+.formula-ribbon strong{font:900 clamp(19px,2.2vw,34px)/1 "Nunito";letter-spacing:-.025em}
+.formula-divider{flex:0 0 7px;width:7px;height:7px;border-radius:50%;background:var(--amber)}
+.formula-shape{display:block;flex:0 0 auto}
+.formula-circle{width:34px;height:34px;border:4px solid var(--amber);border-radius:50%}
+.formula-triangle{width:0;height:0;border-left:22px solid transparent;border-right:22px solid transparent;border-bottom:42px solid #f2d59e;transform:rotate(10deg)}
+.formula-square{width:34px;height:34px;border:4px solid #f2d59e;transform:rotate(12deg)}
+@media(max-width:900px){.formula-ribbon{justify-content:flex-start;overflow-x:auto;scrollbar-width:none}.formula-ribbon::-webkit-scrollbar{display:none}.formula-ribbon strong{font-size:22px}}
+
+.hero-hook{max-width:720px;margin:24px 0 0;padding-left:18px;border-left:4px solid var(--amber);font:800 clamp(18px,1.55vw,24px)/1.35 "Nunito";color:var(--forest-2)}
+.hero-hook+.hero-lead{margin-top:18px}
+@media(max-width:760px){.hero-hook{margin-top:18px;font-size:18px;padding-left:14px}}
