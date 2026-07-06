@@ -37,7 +37,8 @@ document.querySelectorAll('[data-slider]').forEach((slider) => {
   track.addEventListener('scroll', () => {
     const max = track.scrollWidth - track.clientWidth;
     const ratio = max > 0 ? track.scrollLeft / max : 0;
-    progress.style.transform = `translateX(${ratio * 200}%)`;
+    const travel = progress.parentElement.clientWidth - progress.offsetWidth;
+    progress.style.transform = `translateX(${ratio * travel}px)`;
   }, { passive: true });
 });
 
