@@ -81,6 +81,9 @@
 .brand-dropdown strong{font:700 14px "DM Sans"}
 .brand-menu:hover .brand-dropdown,.brand-menu:focus-within .brand-dropdown{opacity:1;visibility:visible;transform:translateY(0)}
 .brand-menu:hover .brand-chevron,.brand-menu:focus-within .brand-chevron{transform:rotate(180deg)}
+.header-phone{font:800 14px "Nunito";color:var(--forest-2);white-space:nowrap;padding:9px 12px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.55)}
+.header-phone:hover{background:var(--sage)}
+@media(max-width:760px){.header-phone{position:absolute;left:63px;top:42px;padding:0;border:0;background:transparent;font-size:10px;line-height:1}.header-phone:hover{background:transparent}}
 
 @media(max-width:1050px){
   .brand-dropdown,.brand-chevron{display:none}
